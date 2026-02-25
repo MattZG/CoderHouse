@@ -1,0 +1,24 @@
+# Python (archivos temporales de compilación)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks (archivos temporales de guardado)
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Entornos virtuales 
+env/
+venv/
+.env
+
+# Datos 
+*.csv
+*.json
+*.xlsx
+data/raw/
+data/processed/
+
+# Logs y configuración del sistema
+.DS_Store
+.vscode/
